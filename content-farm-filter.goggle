@@ -6,9 +6,6 @@
 
 $boost=2,site=developer.apple.com
 $boost=2,site=developers.google.com
-$boost=2,site=github.com
-$boost=2,site=gitlab.com
-$boost=2,site=micro.blog
 $discard,site=5axxw.com
 $discard,site=adobe.com
 $discard,site=alltodev.com
@@ -20,6 +17,7 @@ $discard,site=answacode.com
 $discard,site=answer-id.com
 $discard,site=answerlib.com
 $discard,site=answerlib.com
+$discard,site=apps.apple.com
 $discard,site=arip-photo.org
 $discard,site=article.docway.net
 $discard,site=ask-dev.ru
@@ -51,6 +49,7 @@ $discard,site=coderoad.ru
 $discard,site=codersatellite.com
 $discard,site=codewdw.com
 $discard,site=coredump.biz
+$discard,site=csdn.net
 $discard,site=culinarydegree.info
 $discard,site=debugcn.com
 $discard,site=desenv-web-rp.com
@@ -137,6 +136,7 @@ $discard,site=overcoder.net
 $discard,site=pakostnici.com
 $discard,site=panaindustrial.com
 $discard,site=pcbconline.org
+$discard,site=play.google.com
 $discard,site=pretagteam.com
 $discard,site=progi.pro
 $discard,site=programmierfrage.com
@@ -218,12 +218,17 @@ $downrank=1,site=jan.ai
 $downrank=1,site=lifehacker.com
 $downrank=1,site=maketecheasier.com
 $downrank=1,site=similarweb.com
+$downrank=1,site=stackexchange.com
 $downrank=1,site=towardsai.net
 $downrank=2,site=alternativeto.net
 $downrank=2,site=geeksforgeeks.org
+$downrank=2,site=howtogeek.com
 $downrank=2,site=mailchimp.com
+$downrank=2,site=makeuseof.com
 $downrank=2,site=quora.com
 $downrank=2,site=reddit.com
+$downrank=2,site=superuser.com
+$downrank=2,site=techradar.com
 
 ! Experimental
 *stack*downrank=1
