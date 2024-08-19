@@ -1,11 +1,15 @@
-! name: Content Farm Filter
+! name: Opinionated Filters
 ! description: Remove and/or deprioritise low-quality results from known content farms/SEO-driven websites and similar discussion forums.
 ! public: true
 ! author: Leo Mok
 ! homepage: https://github.com/kymokleo
 
+
 $boost=2,site=developer.apple.com
 $boost=2,site=developers.google.com
+$boost=2,site=harvard.edu
+$boost=2,site=learn.microsoft.com
+$boost=2,site=web.dev
 $discard,site=5axxw.com
 $discard,site=adobe.com
 $discard,site=alltodev.com
@@ -214,12 +218,12 @@ $discard,site=younggeeks.in
 $discard,site=youtube.com
 $discard,site=zsharp.org
 $downrank=1,site=digitalocean.com
-$downrank=1,site=jan.ai
 $downrank=1,site=lifehacker.com
 $downrank=1,site=maketecheasier.com
 $downrank=1,site=similarweb.com
 $downrank=1,site=stackexchange.com
 $downrank=1,site=towardsai.net
+$downrank=1,site=www.codecademy.com
 $downrank=2,site=alternativeto.net
 $downrank=2,site=geeksforgeeks.org
 $downrank=2,site=howtogeek.com
@@ -229,10 +233,13 @@ $downrank=2,site=quora.com
 $downrank=2,site=reddit.com
 $downrank=2,site=superuser.com
 $downrank=2,site=techradar.com
+$downrank=2,site=www.w3schools.com
 
 ! Experimental
-*stack*downrank=1
-*question*downrank=1
-*edu*$boost=2
-*docs*$boost=1
 *blog*$boost=1
+*documentation*$boost=2
+*edu*$boost=3
+*overflow*$downrank=1
+*question*$downrank=1
+*stack*$downrank=1
+*understanding*$boost=2
