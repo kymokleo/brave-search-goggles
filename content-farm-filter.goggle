@@ -5,13 +5,14 @@
 ! homepage: https://github.com/kymokleo
 
 
-$boost=2,site=developer.apple.com
-$boost=2,site=developers.google.com
+$boost=1,site=developer.apple.com
+$boost=1,site=developers.google.com
 $boost=2,site=harvard.edu
-$boost=2,site=learn.microsoft.com
-$boost=2,site=web.dev
+$boost=1,site=learn.microsoft.com
+$boost=1,site=web.dev
+$boost=1,site=hackernoon.com
+$boost=1,site=www.theregister.com
 $discard,site=5axxw.com
-$discard,site=adobe.com
 $discard,site=alltodev.com
 $discard,site=amazon.com
 $discard,site=amazon.uk
@@ -26,7 +27,6 @@ $discard,site=arip-photo.org
 $discard,site=article.docway.net
 $discard,site=ask-dev.ru
 $discard,site=askcodez.com
-$discard,site=askdev.vn
 $discard,site=athabasca-foto.com
 $discard,site=awesomeopensource.com
 $discard,site=bestofcpp.com
@@ -230,13 +230,16 @@ $downrank=2,site=howtogeek.com
 $downrank=2,site=mailchimp.com
 $downrank=2,site=makeuseof.com
 $downrank=2,site=quora.com
+$downrank=2,site=dev.to
 $downrank=2,site=reddit.com
 $downrank=2,site=superuser.com
 $downrank=2,site=techradar.com
-$downrank=2,site=www.w3schools.com
+$downrank=1,site=www.w3schools.com
 
 ! Experimental
+$downrank=1,site=github.com
 *blog*$boost=1
+*developer*$boost=2
 *documentation*$boost=2
 *edu*$boost=3
 *overflow*$downrank=1
