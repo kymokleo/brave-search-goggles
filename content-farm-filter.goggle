@@ -4,7 +4,6 @@
 ! author: Leo Mok
 ! homepage: https://github.com/kymokleo
 
-
 $boost=1,site=developer.apple.com
 $boost=1,site=developers.google.com
 $boost=2,site=harvard.edu
@@ -12,6 +11,7 @@ $boost=1,site=learn.microsoft.com
 $boost=1,site=web.dev
 $boost=1,site=hackernoon.com
 $boost=1,site=www.theregister.com
+
 $discard,site=5axxw.com
 $discard,site=alltodev.com
 $discard,site=amazon.com
@@ -20,7 +20,6 @@ $discard,site=amazonaws.com
 $discard,site=amuddycup.com
 $discard,site=answacode.com
 $discard,site=answer-id.com
-$discard,site=answerlib.com
 $discard,site=answerlib.com
 $discard,site=apps.apple.com
 $discard,site=arip-photo.org
@@ -31,6 +30,7 @@ $discard,site=athabasca-foto.com
 $discard,site=awesomeopensource.com
 $discard,site=bestofcpp.com
 $discard,site=bleepcoder.com
+$discard,site=breitbart.com
 $discard,site=brocante.dev
 $discard,site=buzzphp.com
 $discard,site=cainiaojiaocheng.com
@@ -76,12 +76,12 @@ $discard,site=fitforlearning.org
 $discard,site=fixes.pub
 $discard,site=fluffyfables.com
 $discard,site=fooobar.com
+$discard,site=foxnews.com
 $discard,site=generacodice.blog
 $discard,site=generacodice.com
 $discard,site=generacodice.it
 $discard,site=ghcc.net
 $discard,site=gitanswer.com
-$discard,site=giters.com
 $discard,site=giters.com
 $discard,site=github.innominds.com
 $discard,site=githubhelp.com
@@ -99,6 +99,7 @@ $discard,site=higithub.com
 $discard,site=howtofix.io
 $discard,site=ibootweb.com
 $discard,site=ilovepdf.com
+$discard,site=instagram.com
 $discard,site=intellipaat.com
 $discard,site=iquestion.pro
 $discard,site=isolution.pro
@@ -140,6 +141,13 @@ $discard,site=overcoder.net
 $discard,site=pakostnici.com
 $discard,site=panaindustrial.com
 $discard,site=pcbconline.org
+$discard,site=pinterest.ca
+$discard,site=pinterest.co.uk
+$discard,site=pinterest.com
+$discard,site=pinterest.com.au
+$discard,site=pinterest.de
+$discard,site=pinterest.es
+$discard,site=pinterest.fr
 $discard,site=play.google.com
 $discard,site=pretagteam.com
 $discard,site=progi.pro
@@ -194,6 +202,7 @@ $discard,site=substack.com
 $discard,site=sunflowercreations.org
 $discard,site=sysadminde.com
 $discard,site=theshuggahpies.com
+$discard,site=tiktok.com
 $discard,site=tipsfordev.com
 $discard,site=titanwolf.org
 $discard,site=try2explore.com
@@ -217,6 +226,7 @@ $discard,site=yahoo.com
 $discard,site=younggeeks.in
 $discard,site=youtube.com
 $discard,site=zsharp.org
+
 $downrank=1,site=digitalocean.com
 $downrank=1,site=lifehacker.com
 $downrank=1,site=maketecheasier.com
@@ -237,12 +247,6 @@ $downrank=2,site=techradar.com
 $downrank=1,site=www.w3schools.com
 
 ! Experimental
-$downrank=1,site=github.com
 *blog*$boost=1
-*developer*$boost=2
-*documentation*$boost=2
-*edu*$boost=3
-*overflow*$downrank=1
-*question*$downrank=1
-*stack*$downrank=1
+*edu*$boost=2
 *understanding*$boost=2
